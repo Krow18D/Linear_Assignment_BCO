@@ -1,0 +1,27 @@
+ant:
+<ant>
+  <mkdir dir="D:\Work\Matlab\Linear_BCO\for_redistribution" />
+  <mkdir dir="D:\Work\Matlab\Linear_BCO\for_testing" />
+  <mkdir dir="D:\Work\Matlab\Linear_BCO\for_redistribution_files_only" />
+</ant>
+mcc -C -o Linear_BCO -W WinMain:Linear_BCO -T link:exe -d D:\Work\Matlab\Linear_BCO\for_testing -v D:\Work\Matlab\mainpage.m 
+[Warning: MATLAB Toolbox Path Cache is out of date and is not being used.
+Type 'help toolbox_path_cache' for more info] 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "D:\Work\Matlab" to Compiler path instance.] 
+Parsing file "D:\Work\Matlab\mainpage.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "D:\Work\Matlab\Linear_BCO\for_testing\readme.txt".
+Packaging...
+Adding custom icon D:\Work\Matlab\Linear_BCO_resources\icon.ico to D:\Work\Matlab\Linear_BCO\for_testing\Linear_BCO.exe.
+Attempting to embed the CTF archive into the application D:\Work\Matlab\Linear_BCO\for_testing\Linear_BCO.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Failed to embed installer splash screen C:\Users\karin\AppData\Local\Temp\splash327565229697642498.tmp.
+Update resource failed: 5
+Attempting to embed default installer splash screen, C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\compiler\Resources\default_splash.png.
+Web based installer created at D:\Work\Matlab\Linear_BCO\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 3 minutes and 27 seconds.
